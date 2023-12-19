@@ -1,0 +1,2 @@
+ALTER TABLE `players`
+ADD COLUMN `gift` int(11) NOT NULL DEFAULT '0';
