@@ -7,6 +7,7 @@
 
 Config = {}
 
+Config.Framework = 'QB' -- or ESX
 Config.Command = 'gift' -- Command to gift a vehicle
 Config.GiftVehicle = true -- Set to false if you don't want to gift a vehicle
 Config.Vehicle = 't20' -- Vehicle to gift

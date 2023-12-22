@@ -10,6 +10,9 @@ Step 1
 - Download this resource
 
 Step 2
+- Insert the sql
+
+Step 3
 - Configure the config to your liking
 
 Step 3
