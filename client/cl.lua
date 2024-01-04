@@ -1,4 +1,8 @@
-QBCore = exports['qb-core']:GetCoreObject()
+if Config.Framework == 'QB' then
+    QBCore = exports['qb-core']:GetCoreObject()
+else
+    ESX = exports["es_extended"]:getSharedObject()
+end
 
 RegisterNetEvent('dsco_gift:client:SpawnVehicleGift')
 AddEventHandler('dsco_gift:client:SpawnVehicleGift', function(vehicle, plate)
